@@ -11,7 +11,7 @@ authors:
 EpicFX: 
    Anders: 摸鱼
    Winfxk: 帅逼凯
-description: 一个史诗级别的公会插件
+description: 一个史诗级别的测试插件
 depend: ~
 softdepend: ~
 loadbefore: ~
