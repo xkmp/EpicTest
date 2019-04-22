@@ -1,0 +1,32 @@
+main: EpicFX\EpicTest\EpicTest
+name: EpicTest
+version: 1.0.0
+api: 
+- 3.0.0
+- 4.0.0
+load: POSTWORLD
+authors: 
+- Winfxk
+- Anders
+EpicFX: 
+   Anders: 摸鱼
+   Winfxk: 帅逼凯
+description: 一个史诗级别的公会插件
+depend: ~
+softdepend: ~
+loadbefore: ~
+extensions: ~
+prefix: EpicTest
+website: https://github.com/xkmp/EpicTest
+commands:
+   测试:
+      description: 史诗测试插件主命令
+      usage: /测试 help
+      permission: EpicTest.Command.Main
+      aliases: 
+      - cs
+      - epictest
+permissions:
+   EpicTest.Command.Main:
+      description: 测试插件主命令
+      default: true
